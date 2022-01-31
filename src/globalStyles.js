@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: 'Poppins', sans-serif;
     }
+    
     h1, h2,h3,h4,h5,h6 {
       letter-spacing: .25px;
       color: #f0f0f0;

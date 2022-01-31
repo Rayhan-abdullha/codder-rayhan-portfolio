@@ -33,7 +33,7 @@ function InfoSection({
   useEffect(() => {
     AOS.init({
       offset: 100,
-      duration: 600,
+      duration: 400,
       easing: 'ease-in-sine',
       delay: 500,
     });
@@ -44,7 +44,7 @@ function InfoSection({
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
-              <TextWrapper data-aos={`${imgStart && "fade-left"}`}>
+              <TextWrapper data-aos={`${imgStart && "fade-up"}`}>
                 <TopLine>{topLine}</TopLine>
                 <Heading headlineText={headlineText}>{headline}</Heading>
                 <Subtitle subtitle={subtitle}>{description}</Subtitle>
@@ -55,7 +55,7 @@ function InfoSection({
                 </a>
               </TextWrapper>
             </InfoColumn>
-            <InfoColumn data-aos={`${imgStart && "fade-right"}`}>
+            <InfoColumn data-aos={`${imgStart && "fade-up"}`}>
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>

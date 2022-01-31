@@ -21,9 +21,9 @@ function Pricing() {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 600,
+      duration: 400,
       easing: 'ease-in-sine',
-      delay: 100,
+      delay: 400,
     });
   },)
   return (

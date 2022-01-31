@@ -3,7 +3,7 @@ export const homeObjOne = {
   primary: true,
   padding: true,
   topLine: "Hello I am,",
-  headline: "Codder Rayhan",
+  headline: "Coder Rayhan",
   description: "MERN Stack Developer",
   buttonLabel: "Get Resume",
   imgStart: false,

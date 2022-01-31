@@ -24,6 +24,7 @@ export const FormInput = styled.input`
   border: none;
   font-size: 16px;
   border: 1px solid #fff;
+  width: 100%;
   &::placeholder {
     color: #444;
     font-size: 14px;
@@ -37,6 +38,7 @@ export const TextInput = styled.textarea`
   border: none;
   font-size: 16px;
   border: 1px solid #fff;
+  width: 100%;
   &::placeholder {
     color: #444;
     font-size: 14px;
