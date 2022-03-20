@@ -70,8 +70,8 @@ export const portfolioData = [
   },
   {
     id: 4,
-    liveLink: "https://reviewsapp2.netlify.app/",
-    code: "https://github.com/Rayhan-abdullha/Feedback-App-2022",
+    liveLink: "https://feedback-mern.netlify.app/",
+    code: "https://github.com/Rayhan-abdullha/Feedback-app-client",
     title: "Feedback App",
     img: require("../../assest/feedback.png"),
   },

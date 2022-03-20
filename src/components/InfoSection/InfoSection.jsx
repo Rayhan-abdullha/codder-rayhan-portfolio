@@ -48,7 +48,7 @@ function InfoSection({
                 <TopLine>{topLine}</TopLine>
                 <Heading headlineText={headlineText}>{headline}</Heading>
                 <Subtitle subtitle={subtitle}>{description}</Subtitle>
-                <a href="https://drive.google.com/file/d/1aJtJDjl7BIpYhExkN3mYkKlsXhE_M0KK/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1RV_KxrmszC0OVeDLG6NoSFF0-gHGM1_5/view" target="_blank">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
