@@ -48,14 +48,14 @@ function InfoSection({
                 <TopLine>{topLine}</TopLine>
                 <Heading headlineText={headlineText}>{headline}</Heading>
                 <Subtitle subtitle={subtitle}>{description}</Subtitle>
-                <a href="https://drive.google.com/file/d/1RV_KxrmszC0OVeDLG6NoSFF0-gHGM1_5/view" target="_blank">
+                <a href="https://drive.google.com/file/d/1x9t6E5GdZVmVJCWR08rAmqqpQKmMyFdd/view?usp=sharing" target="_blank">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
                 </a>
               </TextWrapper>
             </InfoColumn>
-            <InfoColumn data-aos={`${imgStart && "fade-up"}`}>
+            <InfoColumn data-aos={`${imgStart && "fade-down"}`}>
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>

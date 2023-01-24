@@ -53,14 +53,7 @@ function Footer() {
               <FaFacebook />
             </SocialIconLink>
             <SocialIconLink
-              href="https://www.instagram.com/rayhan_abdullha/?fbclid=IwAR3VFb_zonuzprzNG-Zuwd-wa6E0smfnjoFkhvktEoQzr8DweJOByw8bWWY"
-              target="_blank"
-              aria-label="Instagram"
-            >
-              <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink
-              href={"https://www.youtube.com/CodderRayhaN"}
+              href="https://www.youtube.com/channel/UC1NRZYzaieER4nM18l6vAAQ"
               rel="noopener noreferrer"
               target="_blank"
               aria-label="Youtube"
@@ -74,7 +67,7 @@ function Footer() {
             >
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href="https://www.linkedin.com/in/rayhan-abdullha-100956189/" target="_blank" aria-label="LinkedIn">
+            <SocialIconLink href="https://www.linkedin.com/in/rayhan-abdullah-100956189/" target="_blank" aria-label="LinkedIn">
               <FaLinkedin />
             </SocialIconLink>
             <SocialIconLink

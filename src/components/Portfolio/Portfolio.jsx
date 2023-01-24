@@ -16,9 +16,9 @@ const Portfolio = () => {
 
   useEffect(() => {
     AOS.init({
-      offset: 200,
-      duration: 600,
-      easing: 'ease-in-sine',
+      offset: 0,
+      duration: 200,
+      easing: 'zoom-in',
       delay: 100,
     });
   },)
