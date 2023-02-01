@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Container, Button } from "../../globalStyles";
 import {
@@ -12,8 +12,8 @@ import {
   ImgWrapper,
   Img,
 } from "./InfoSectionElement";
-import AOS from 'aos';
-import 'aos/dist/aos.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function InfoSection({
   primary,
@@ -29,15 +29,14 @@ function InfoSection({
   headlineText,
   padding,
 }) {
-
   useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 400,
-      easing: 'ease-in-sine',
+      easing: "ease-in-sine",
       delay: 500,
     });
-  },)
+  });
   return (
     <>
       <InfoSec padding={padding}>
@@ -48,7 +47,10 @@ function InfoSection({
                 <TopLine>{topLine}</TopLine>
                 <Heading headlineText={headlineText}>{headline}</Heading>
                 <Subtitle subtitle={subtitle}>{description}</Subtitle>
-                <a href="https://drive.google.com/file/d/1x9t6E5GdZVmVJCWR08rAmqqpQKmMyFdd/view?usp=sharing" target="_blank">
+                <a
+                  href="https://drive.google.com/file/d/1zZma_Bsc95t3hNx2rSiqVBs2x2wcfp1A/view?usp=sharing"
+                  target="_blank"
+                >
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
