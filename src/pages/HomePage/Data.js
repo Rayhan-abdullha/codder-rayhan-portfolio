@@ -56,7 +56,7 @@ export const portfolioData = [
   },
   {
     id: 16,
-    liveLink: "https://countryapi33.netlify.app/",
+    liveLink: "https://countries-api-iota-eight.vercel.app/",
     code: "https://github.com/Rayhan-abdullha/countries-api",
     title: "Country Details App",
     img: require("../../assest/country.png"),
