@@ -55,6 +55,20 @@ export const portfolioData = [
     img: require("../../assest/blog.png"),
   },
   {
+    id: 18,
+    liveLink: "https://treat-ecommerce.vercel.app/",
+    code: "https://github.com/Rayhan-abdullha/Treat-Ecommerce",
+    title: "Treat-Ecommerce",
+    img: require("../../assest/treat.png"),
+  },
+  {
+    id: 17,
+    liveLink: "https://thunderous-faun-167e90.netlify.app/",
+    code: "https://github.com/Rayhan-abdullha/player-project-react",
+    title: "Sports24",
+    img: require("../../assest/sports24.png"),
+  },
+  {
     id: 16,
     liveLink: "https://countries-api-iota-eight.vercel.app/",
     code: "https://github.com/Rayhan-abdullha/countries-api",
