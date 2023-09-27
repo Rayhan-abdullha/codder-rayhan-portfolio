@@ -72,14 +72,14 @@ function Navbar() {
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink
-                    href="https://drive.google.com/file/d/1jNM76NBs-55NpGKP3Ox57FZKWk_LgfQw/view"
+                    href="https://drive.google.com/file/d/1Z6WOijIyBniTXPNwDqcPBMigf-SjwZrM/view?usp=sharing"
                     target="_blank"
                   >
                     <Button primary>Resume</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink
-                    href="https://drive.google.com/file/d/1jNM76NBs-55NpGKP3Ox57FZKWk_LgfQw/view"
+                    href="https://drive.google.com/file/d/1Z6WOijIyBniTXPNwDqcPBMigf-SjwZrM/view?usp=sharing"
                     target="_blank"
                   >
                     <Button onClick={closeMobileMenu} fontBig primary>
