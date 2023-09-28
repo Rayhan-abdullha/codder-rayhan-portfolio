@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { Container, Button } from "../../globalStyles";
 import {
   InfoSec,
@@ -48,8 +47,9 @@ function InfoSection({
                 <Heading headlineText={headlineText}>{headline}</Heading>
                 <Subtitle subtitle={subtitle}>{description}</Subtitle>
                 <a
-                  href="https://drive.google.com/file/d/1Z6WOijIyBniTXPNwDqcPBMigf-SjwZrM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Vj--R1MjYy4jvewMkHXKNCCg7C7YL59x/view?usp=sharing"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
